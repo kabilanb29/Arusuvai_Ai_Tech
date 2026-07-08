@@ -1,0 +1,6 @@
+{
+  "name": "Arusuvai Tech",
+  "description": "Precision Nutrition for the Indian Palate, combining AI-driven calibration with local culinary heritage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
