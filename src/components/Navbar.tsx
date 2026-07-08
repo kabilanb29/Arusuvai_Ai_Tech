@@ -42,7 +42,7 @@ export default function Navbar() {
             <Sparkles className="w-4.5 h-4.5 text-slate-950 group-hover:rotate-12 transition-transform" />
           </div>
           <span className="font-extrabold text-lg text-white tracking-tight group-hover:text-emerald-400 transition-colors">
-            Arusuvai Tech
+            Arusuvai AI Tech
           </span>
         </button>
 

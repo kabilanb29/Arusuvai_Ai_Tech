@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Sparkles, Heart, Lock } from "lucide-react";
+import { Sparkles, Heart } from "lucide-react";
 
 interface FooterProps {
   onAdminClick: () => void;
@@ -30,11 +30,11 @@ export default function Footer({ onAdminClick }: FooterProps) {
               <Sparkles className="w-3.5 h-3.5 text-slate-950 group-hover:rotate-12 transition-transform" />
             </div>
             <span className="font-bold text-base text-white tracking-tight">
-              Arusuvai Tech
+              Arusuvai AI Tech
             </span>
           </button>
           <p className="text-xs text-slate-500 max-w-sm mt-1 leading-relaxed">
-            Calibrating contemporary culinary sciences with localized biological indexes for the traditional Indian palate.
+            Your Personal AI Nutrition Companion for Everyday India. Helping you make better food choices with what you already have at home.
           </p>
         </div>
 
@@ -49,12 +49,12 @@ export default function Footer({ onAdminClick }: FooterProps) {
               onClick={onAdminClick}
               className="text-slate-500 hover:text-emerald-400 transition-colors flex items-center gap-1 cursor-pointer"
             >
-              <Lock className="w-3 h-3" /> Admin Console
+              Admin Console
             </button>
           </div>
           
           <div className="flex items-center gap-1.5 text-[11px] text-slate-500 mt-1">
-            <span>© {currentYear} Arusuvai Tech. Crafted in India with</span>
+            <span>© {currentYear} Arusuvai AI Tech. Crafted in India with</span>
             <Heart className="w-3 h-3 text-rose-500 animate-pulse fill-rose-500" />
             <span>for healthy living.</span>
           </div>
